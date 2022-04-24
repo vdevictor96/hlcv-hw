@@ -1,0 +1,7 @@
+.idea
+v
+v-win
+.ipynb_checkpoints
+**/__pycache__
+.tmp*
+*.png
