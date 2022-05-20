@@ -5,3 +5,4 @@ v-win
 **/__pycache__
 .tmp*
 *.png
+resources
