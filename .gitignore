@@ -6,3 +6,5 @@ v-win
 .tmp*
 *.png
 resources
+datasets
+.ckpt
