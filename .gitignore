@@ -4,6 +4,5 @@ v-win
 .ipynb_checkpoints
 **/__pycache__
 .tmp*
-*.png
 **/*/datasets
 *.ckpt
