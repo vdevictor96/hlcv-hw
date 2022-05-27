@@ -1,0 +1,964 @@
+ConvNet(
+  (layers): Sequential(
+    (0): Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (2): ReLU()
+    (3): Dropout(p=0.1, inplace=False)
+    (4): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (5): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (6): ReLU()
+    (7): Dropout(p=0.1, inplace=False)
+    (8): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (9): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (10): ReLU()
+    (11): Dropout(p=0.1, inplace=False)
+    (12): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): ReLU()
+    (15): Dropout(p=0.1, inplace=False)
+    (16): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (17): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (18): ReLU()
+    (19): Dropout(p=0.1, inplace=False)
+    (20): Flatten(start_dim=1, end_dim=-1)
+    (21): Linear(in_features=512, out_features=10, bias=True)
+  )
+)
+Epoch [1/20], Step [100/245], Loss: 1.7985
+Epoch [1/20], Step [200/245], Loss: 1.6919
+Train accuracy is: 30.875510204081632 %
+Validataion accuracy is: 44.5 %
+Epoch [2/20], Step [100/245], Loss: 1.3594
+Epoch [2/20], Step [200/245], Loss: 1.2148
+Train accuracy is: 53.3 %
+Validataion accuracy is: 60.9 %
+Epoch [3/20], Step [100/245], Loss: 0.9652
+Epoch [3/20], Step [200/245], Loss: 1.1140
+Train accuracy is: 62.94897959183673 %
+Validataion accuracy is: 68.6 %
+Epoch [4/20], Step [100/245], Loss: 0.8631
+Epoch [4/20], Step [200/245], Loss: 0.8381
+Train accuracy is: 68.43673469387755 %
+Validataion accuracy is: 71.8 %
+Epoch [5/20], Step [100/245], Loss: 0.8592
+Epoch [5/20], Step [200/245], Loss: 0.8802
+Train accuracy is: 72.30408163265307 %
+Validataion accuracy is: 76.3 %
+Epoch [6/20], Step [100/245], Loss: 0.7919
+Epoch [6/20], Step [200/245], Loss: 0.6774
+Train accuracy is: 74.68367346938776 %
+Validataion accuracy is: 73.9 %
+Epoch [7/20], Step [100/245], Loss: 0.8735
+Epoch [7/20], Step [200/245], Loss: 0.6258
+Train accuracy is: 76.95510204081633 %
+Validataion accuracy is: 77.2 %
+Epoch [8/20], Step [100/245], Loss: 0.6174
+Epoch [8/20], Step [200/245], Loss: 0.5984
+Train accuracy is: 78.45510204081633 %
+Validataion accuracy is: 78.0 %
+Epoch [9/20], Step [100/245], Loss: 0.5807
+Epoch [9/20], Step [200/245], Loss: 0.6166
+Train accuracy is: 79.72448979591837 %
+Validataion accuracy is: 77.8 %
+Epoch [10/20], Step [100/245], Loss: 0.4282
+Epoch [10/20], Step [200/245], Loss: 0.5282
+Train accuracy is: 80.96122448979592 %
+Validataion accuracy is: 80.2 %
+Epoch [11/20], Step [100/245], Loss: 0.5823
+Epoch [11/20], Step [200/245], Loss: 0.5298
+Train accuracy is: 81.93469387755103 %
+Validataion accuracy is: 80.1 %
+Epoch [12/20], Step [100/245], Loss: 0.5001
+Epoch [12/20], Step [200/245], Loss: 0.4494
+Train accuracy is: 82.68571428571428 %
+Validataion accuracy is: 81.0 %
+Epoch [13/20], Step [100/245], Loss: 0.3866
+Epoch [13/20], Step [200/245], Loss: 0.4168
+Train accuracy is: 83.48979591836735 %
+Validataion accuracy is: 81.7 %
+Epoch [14/20], Step [100/245], Loss: 0.4206
+Epoch [14/20], Step [200/245], Loss: 0.6466
+Train accuracy is: 84.34081632653061 %
+Validataion accuracy is: 82.5 %
+Epoch [15/20], Step [100/245], Loss: 0.3926
+Epoch [15/20], Step [200/245], Loss: 0.5204
+Train accuracy is: 85.02448979591837 %
+Validataion accuracy is: 81.4 %
+Epoch [16/20], Step [100/245], Loss: 0.3278
+Epoch [16/20], Step [200/245], Loss: 0.3272
+Train accuracy is: 85.78979591836735 %
+Validataion accuracy is: 81.5 %
+Epoch [17/20], Step [100/245], Loss: 0.3718
+Epoch [17/20], Step [200/245], Loss: 0.4200
+Train accuracy is: 86.08571428571429 %
+Validataion accuracy is: 82.9 %
+Epoch [18/20], Step [100/245], Loss: 0.3984
+Epoch [18/20], Step [200/245], Loss: 0.4030
+Train accuracy is: 86.83061224489796 %
+Validataion accuracy is: 83.1 %
+Epoch [19/20], Step [100/245], Loss: 0.3559
+Epoch [19/20], Step [200/245], Loss: 0.4173
+Train accuracy is: 87.55510204081632 %
+Validataion accuracy is: 82.6 %
+Epoch [20/20], Step [100/245], Loss: 0.3518
+Epoch [20/20], Step [200/245], Loss: 0.2872
+Train accuracy is: 87.92244897959183 %
+Validataion accuracy is: 82.0 %
+
+ConvNet(
+  (layers): Sequential(
+    (0): Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (2): ReLU()
+    (3): Dropout(p=0.2, inplace=False)
+    (4): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (5): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (6): ReLU()
+    (7): Dropout(p=0.2, inplace=False)
+    (8): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (9): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (10): ReLU()
+    (11): Dropout(p=0.2, inplace=False)
+    (12): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): ReLU()
+    (15): Dropout(p=0.2, inplace=False)
+    (16): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (17): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (18): ReLU()
+    (19): Dropout(p=0.2, inplace=False)
+    (20): Flatten(start_dim=1, end_dim=-1)
+    (21): Linear(in_features=512, out_features=10, bias=True)
+  )
+)
+Epoch [1/20], Step [100/245], Loss: 1.6656
+Epoch [1/20], Step [200/245], Loss: 1.4921
+Train accuracy is: 34.7265306122449 %
+Validataion accuracy is: 53.7 %
+Epoch [2/20], Step [100/245], Loss: 1.3718
+Epoch [2/20], Step [200/245], Loss: 1.1760
+Train accuracy is: 54.8734693877551 %
+Validataion accuracy is: 62.5 %
+Epoch [3/20], Step [100/245], Loss: 1.0449
+Epoch [3/20], Step [200/245], Loss: 0.9648
+Train accuracy is: 63.022448979591836 %
+Validataion accuracy is: 69.4 %
+Epoch [4/20], Step [100/245], Loss: 0.7865
+Epoch [4/20], Step [200/245], Loss: 0.8525
+Train accuracy is: 68.08571428571429 %
+Validataion accuracy is: 72.0 %
+Epoch [5/20], Step [100/245], Loss: 0.8318
+Epoch [5/20], Step [200/245], Loss: 0.7615
+Train accuracy is: 71.11224489795919 %
+Validataion accuracy is: 74.1 %
+Epoch [6/20], Step [100/245], Loss: 0.8814
+Epoch [6/20], Step [200/245], Loss: 0.9831
+Train accuracy is: 73.21836734693878 %
+Validataion accuracy is: 75.6 %
+Epoch [7/20], Step [100/245], Loss: 0.7044
+Epoch [7/20], Step [200/245], Loss: 0.6627
+Train accuracy is: 74.7591836734694 %
+Validataion accuracy is: 77.2 %
+Epoch [8/20], Step [100/245], Loss: 0.7616
+Epoch [8/20], Step [200/245], Loss: 0.6406
+Train accuracy is: 75.71632653061225 %
+Validataion accuracy is: 77.3 %
+Epoch [9/20], Step [100/245], Loss: 0.6258
+Epoch [9/20], Step [200/245], Loss: 0.5741
+Train accuracy is: 77.0734693877551 %
+Validataion accuracy is: 78.5 %
+Epoch [10/20], Step [100/245], Loss: 0.6400
+Epoch [10/20], Step [200/245], Loss: 0.6303
+Train accuracy is: 77.84897959183674 %
+Validataion accuracy is: 80.0 %
+Epoch [11/20], Step [100/245], Loss: 0.5955
+Epoch [11/20], Step [200/245], Loss: 0.6812
+Train accuracy is: 78.59795918367347 %
+Validataion accuracy is: 80.6 %
+Epoch [12/20], Step [100/245], Loss: 0.6556
+Epoch [12/20], Step [200/245], Loss: 0.6355
+Train accuracy is: 79.68775510204081 %
+Validataion accuracy is: 79.2 %
+Epoch [13/20], Step [100/245], Loss: 0.4712
+Epoch [13/20], Step [200/245], Loss: 0.6098
+Train accuracy is: 80.30204081632652 %
+Validataion accuracy is: 80.4 %
+Epoch [14/20], Step [100/245], Loss: 0.6037
+Epoch [14/20], Step [200/245], Loss: 0.6472
+Train accuracy is: 81.14285714285714 %
+Validataion accuracy is: 82.6 %
+Epoch [15/20], Step [100/245], Loss: 0.4153
+Epoch [15/20], Step [200/245], Loss: 0.5388
+Train accuracy is: 81.40816326530613 %
+Validataion accuracy is: 82.9 %
+Epoch [16/20], Step [100/245], Loss: 0.5994
+Epoch [16/20], Step [200/245], Loss: 0.6706
+Train accuracy is: 81.90408163265306 %
+Validataion accuracy is: 82.7 %
+Epoch [17/20], Step [100/245], Loss: 0.4815
+Epoch [17/20], Step [200/245], Loss: 0.5526
+Train accuracy is: 82.5530612244898 %
+Validataion accuracy is: 81.9 %
+Epoch [18/20], Step [100/245], Loss: 0.5012
+Epoch [18/20], Step [200/245], Loss: 0.4987
+Train accuracy is: 82.67959183673469 %
+Validataion accuracy is: 81.4 %
+Epoch [19/20], Step [100/245], Loss: 0.4855
+Epoch [19/20], Step [200/245], Loss: 0.4978
+Train accuracy is: 83.08367346938776 %
+Validataion accuracy is: 83.8 %
+Epoch [20/20], Step [100/245], Loss: 0.4578
+Epoch [20/20], Step [200/245], Loss: 0.4040
+Train accuracy is: 83.72448979591837 %
+Validataion accuracy is: 84.1 %
+
+ConvNet(
+  (layers): Sequential(
+    (0): Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (2): ReLU()
+    (3): Dropout(p=0.3, inplace=False)
+    (4): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (5): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (6): ReLU()
+    (7): Dropout(p=0.3, inplace=False)
+    (8): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (9): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (10): ReLU()
+    (11): Dropout(p=0.3, inplace=False)
+    (12): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): ReLU()
+    (15): Dropout(p=0.3, inplace=False)
+    (16): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (17): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (18): ReLU()
+    (19): Dropout(p=0.3, inplace=False)
+    (20): Flatten(start_dim=1, end_dim=-1)
+    (21): Linear(in_features=512, out_features=10, bias=True)
+  )
+)
+Epoch [1/20], Step [100/245], Loss: 1.7040
+Epoch [1/20], Step [200/245], Loss: 1.6314
+Train accuracy is: 30.214285714285715 %
+Validataion accuracy is: 47.2 %
+Epoch [2/20], Step [100/245], Loss: 1.4096
+Epoch [2/20], Step [200/245], Loss: 1.2498
+Train accuracy is: 50.46734693877551 %
+Validataion accuracy is: 58.3 %
+Epoch [3/20], Step [100/245], Loss: 1.2470
+Epoch [3/20], Step [200/245], Loss: 1.2281
+Train accuracy is: 58.62244897959184 %
+Validataion accuracy is: 64.5 %
+Epoch [4/20], Step [100/245], Loss: 0.9796
+Epoch [4/20], Step [200/245], Loss: 1.0623
+Train accuracy is: 63.33265306122449 %
+Validataion accuracy is: 70.9 %
+Epoch [5/20], Step [100/245], Loss: 0.9605
+Epoch [5/20], Step [200/245], Loss: 0.8133
+Train accuracy is: 66.81428571428572 %
+Validataion accuracy is: 73.0 %
+Epoch [6/20], Step [100/245], Loss: 0.7335
+Epoch [6/20], Step [200/245], Loss: 0.8903
+Train accuracy is: 69.21836734693878 %
+Validataion accuracy is: 75.8 %
+Epoch [7/20], Step [100/245], Loss: 0.7987
+Epoch [7/20], Step [200/245], Loss: 0.8817
+Train accuracy is: 70.93469387755103 %
+Validataion accuracy is: 75.2 %
+Epoch [8/20], Step [100/245], Loss: 0.7988
+Epoch [8/20], Step [200/245], Loss: 0.8301
+Train accuracy is: 72.38571428571429 %
+Validataion accuracy is: 76.3 %
+Epoch [9/20], Step [100/245], Loss: 0.7781
+Epoch [9/20], Step [200/245], Loss: 0.6991
+Train accuracy is: 73.40204081632653 %
+Validataion accuracy is: 76.2 %
+Epoch [10/20], Step [100/245], Loss: 0.7381
+Epoch [10/20], Step [200/245], Loss: 0.6446
+Train accuracy is: 74.37346938775511 %
+Validataion accuracy is: 76.1 %
+Epoch [11/20], Step [100/245], Loss: 0.6945
+Epoch [11/20], Step [200/245], Loss: 0.6578
+Train accuracy is: 75.14081632653061 %
+Validataion accuracy is: 76.7 %
+Epoch [12/20], Step [100/245], Loss: 0.6531
+Epoch [12/20], Step [200/245], Loss: 0.7161
+Train accuracy is: 75.79387755102042 %
+Validataion accuracy is: 79.9 %
+Epoch [13/20], Step [100/245], Loss: 0.6850
+Epoch [13/20], Step [200/245], Loss: 0.6692
+Train accuracy is: 76.40204081632653 %
+Validataion accuracy is: 79.8 %
+Epoch [14/20], Step [100/245], Loss: 0.6257
+Epoch [14/20], Step [200/245], Loss: 0.7160
+Train accuracy is: 76.9265306122449 %
+Validataion accuracy is: 80.9 %
+Epoch [15/20], Step [100/245], Loss: 0.6672
+Epoch [15/20], Step [200/245], Loss: 0.6201
+Train accuracy is: 78.07142857142857 %
+Validataion accuracy is: 81.5 %
+Epoch [16/20], Step [100/245], Loss: 0.6017
+Epoch [16/20], Step [200/245], Loss: 0.6985
+Train accuracy is: 78.22448979591837 %
+Validataion accuracy is: 81.5 %
+Epoch [17/20], Step [100/245], Loss: 0.6198
+Epoch [17/20], Step [200/245], Loss: 0.6505
+Train accuracy is: 78.5326530612245 %
+Validataion accuracy is: 80.8 %
+Epoch [18/20], Step [100/245], Loss: 0.4626
+Epoch [18/20], Step [200/245], Loss: 0.6693
+Train accuracy is: 78.91836734693878 %
+Validataion accuracy is: 82.6 %
+Epoch [19/20], Step [100/245], Loss: 0.6331
+Epoch [19/20], Step [200/245], Loss: 0.6456
+Train accuracy is: 79.32040816326531 %
+Validataion accuracy is: 82.9 %
+Epoch [20/20], Step [100/245], Loss: 0.5135
+Epoch [20/20], Step [200/245], Loss: 0.4950
+Train accuracy is: 80.18163265306123 %
+Validataion accuracy is: 82.2 %
+
+ConvNet(
+  (layers): Sequential(
+    (0): Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (2): ReLU()
+    (3): Dropout(p=0.4, inplace=False)
+    (4): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (5): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (6): ReLU()
+    (7): Dropout(p=0.4, inplace=False)
+    (8): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (9): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (10): ReLU()
+    (11): Dropout(p=0.4, inplace=False)
+    (12): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): ReLU()
+    (15): Dropout(p=0.4, inplace=False)
+    (16): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (17): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (18): ReLU()
+    (19): Dropout(p=0.4, inplace=False)
+    (20): Flatten(start_dim=1, end_dim=-1)
+    (21): Linear(in_features=512, out_features=10, bias=True)
+  )
+)
+Epoch [1/20], Step [100/245], Loss: 1.7705
+Epoch [1/20], Step [200/245], Loss: 1.6057
+Train accuracy is: 31.683673469387756 %
+Validataion accuracy is: 50.8 %
+Epoch [2/20], Step [100/245], Loss: 1.5237
+Epoch [2/20], Step [200/245], Loss: 1.3525
+Train accuracy is: 48.92857142857143 %
+Validataion accuracy is: 59.5 %
+Epoch [3/20], Step [100/245], Loss: 1.1187
+Epoch [3/20], Step [200/245], Loss: 1.2676
+Train accuracy is: 55.54489795918367 %
+Validataion accuracy is: 63.7 %
+Epoch [4/20], Step [100/245], Loss: 1.2747
+Epoch [4/20], Step [200/245], Loss: 1.1262
+Train accuracy is: 60.265306122448976 %
+Validataion accuracy is: 69.4 %
+Epoch [5/20], Step [100/245], Loss: 0.9745
+Epoch [5/20], Step [200/245], Loss: 1.0367
+Train accuracy is: 62.98571428571429 %
+Validataion accuracy is: 69.6 %
+Epoch [6/20], Step [100/245], Loss: 0.8744
+Epoch [6/20], Step [200/245], Loss: 1.0205
+Train accuracy is: 64.86734693877551 %
+Validataion accuracy is: 70.8 %
+Epoch [7/20], Step [100/245], Loss: 0.7704
+Epoch [7/20], Step [200/245], Loss: 1.0062
+Train accuracy is: 66.56734693877551 %
+Validataion accuracy is: 73.5 %
+Epoch [8/20], Step [100/245], Loss: 0.8171
+Epoch [8/20], Step [200/245], Loss: 1.0095
+Train accuracy is: 67.88163265306123 %
+Validataion accuracy is: 74.0 %
+Epoch [9/20], Step [100/245], Loss: 0.9414
+Epoch [9/20], Step [200/245], Loss: 0.7616
+Train accuracy is: 68.65510204081633 %
+Validataion accuracy is: 75.8 %
+Epoch [10/20], Step [100/245], Loss: 0.9503
+Epoch [10/20], Step [200/245], Loss: 0.8388
+Train accuracy is: 69.68367346938776 %
+Validataion accuracy is: 76.1 %
+Epoch [11/20], Step [100/245], Loss: 0.7883
+Epoch [11/20], Step [200/245], Loss: 0.8009
+Train accuracy is: 70.34081632653061 %
+Validataion accuracy is: 75.7 %
+Epoch [12/20], Step [100/245], Loss: 0.7995
+Epoch [12/20], Step [200/245], Loss: 0.9797
+Train accuracy is: 71.04081632653062 %
+Validataion accuracy is: 78.5 %
+Epoch [13/20], Step [100/245], Loss: 0.7689
+Epoch [13/20], Step [200/245], Loss: 0.8261
+Train accuracy is: 71.4938775510204 %
+Validataion accuracy is: 77.7 %
+Epoch [14/20], Step [100/245], Loss: 0.7495
+Epoch [14/20], Step [200/245], Loss: 0.7629
+Train accuracy is: 72.57959183673469 %
+Validataion accuracy is: 78.5 %
+Epoch [15/20], Step [100/245], Loss: 0.7869
+Epoch [15/20], Step [200/245], Loss: 0.7832
+Train accuracy is: 72.52244897959184 %
+Validataion accuracy is: 77.6 %
+Epoch [16/20], Step [100/245], Loss: 0.8937
+Epoch [16/20], Step [200/245], Loss: 0.7857
+Train accuracy is: 73.13061224489796 %
+Validataion accuracy is: 79.0 %
+Epoch [17/20], Step [100/245], Loss: 0.7813
+Epoch [17/20], Step [200/245], Loss: 0.7499
+Train accuracy is: 73.5530612244898 %
+Validataion accuracy is: 81.1 %
+Epoch [18/20], Step [100/245], Loss: 0.7338
+Epoch [18/20], Step [200/245], Loss: 0.8004
+Train accuracy is: 73.92040816326531 %
+Validataion accuracy is: 78.8 %
+Epoch [19/20], Step [100/245], Loss: 0.5631
+Epoch [19/20], Step [200/245], Loss: 0.7644
+Train accuracy is: 74.11632653061224 %
+Validataion accuracy is: 80.7 %
+Epoch [20/20], Step [100/245], Loss: 0.5816
+Epoch [20/20], Step [200/245], Loss: 0.9191
+Train accuracy is: 74.71224489795918 %
+Validataion accuracy is: 81.2 %
+
+ConvNet(
+  (layers): Sequential(
+    (0): Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (2): ReLU()
+    (3): Dropout(p=0.5, inplace=False)
+    (4): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (5): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (6): ReLU()
+    (7): Dropout(p=0.5, inplace=False)
+    (8): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (9): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (10): ReLU()
+    (11): Dropout(p=0.5, inplace=False)
+    (12): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): ReLU()
+    (15): Dropout(p=0.5, inplace=False)
+    (16): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (17): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (18): ReLU()
+    (19): Dropout(p=0.5, inplace=False)
+    (20): Flatten(start_dim=1, end_dim=-1)
+    (21): Linear(in_features=512, out_features=10, bias=True)
+  )
+)
+Epoch [1/20], Step [100/245], Loss: 1.8389
+Epoch [1/20], Step [200/245], Loss: 1.6372
+Train accuracy is: 29.879591836734694 %
+Validataion accuracy is: 46.8 %
+Epoch [2/20], Step [100/245], Loss: 1.4113
+Epoch [2/20], Step [200/245], Loss: 1.5256
+Train accuracy is: 46.25918367346939 %
+Validataion accuracy is: 56.8 %
+Epoch [3/20], Step [100/245], Loss: 1.2995
+Epoch [3/20], Step [200/245], Loss: 1.2695
+Train accuracy is: 51.906122448979595 %
+Validataion accuracy is: 58.2 %
+Epoch [4/20], Step [100/245], Loss: 1.2524
+Epoch [4/20], Step [200/245], Loss: 1.3055
+Train accuracy is: 55.3469387755102 %
+Validataion accuracy is: 60.8 %
+Epoch [5/20], Step [100/245], Loss: 1.0864
+Epoch [5/20], Step [200/245], Loss: 1.2747
+Train accuracy is: 57.7 %
+Validataion accuracy is: 64.7 %
+Epoch [6/20], Step [100/245], Loss: 1.0238
+Epoch [6/20], Step [200/245], Loss: 1.2261
+Train accuracy is: 59.45102040816327 %
+Validataion accuracy is: 67.4 %
+Epoch [7/20], Step [100/245], Loss: 1.1063
+Epoch [7/20], Step [200/245], Loss: 1.1441
+Train accuracy is: 60.559183673469384 %
+Validataion accuracy is: 68.4 %
+Epoch [8/20], Step [100/245], Loss: 1.0697
+Epoch [8/20], Step [200/245], Loss: 1.2308
+Train accuracy is: 61.56734693877551 %
+Validataion accuracy is: 68.7 %
+Epoch [9/20], Step [100/245], Loss: 1.0299
+Epoch [9/20], Step [200/245], Loss: 1.0909
+Train accuracy is: 62.861224489795916 %
+Validataion accuracy is: 70.6 %
+Epoch [10/20], Step [100/245], Loss: 1.0721
+Epoch [10/20], Step [200/245], Loss: 1.0384
+Train accuracy is: 63.66530612244898 %
+Validataion accuracy is: 70.7 %
+Epoch [11/20], Step [100/245], Loss: 1.1248
+Epoch [11/20], Step [200/245], Loss: 0.9133
+Train accuracy is: 64.68775510204081 %
+Validataion accuracy is: 70.8 %
+Epoch [12/20], Step [100/245], Loss: 0.9610
+Epoch [12/20], Step [200/245], Loss: 1.0160
+Train accuracy is: 65.39591836734694 %
+Validataion accuracy is: 72.3 %
+Epoch [13/20], Step [100/245], Loss: 0.9195
+Epoch [13/20], Step [200/245], Loss: 0.9665
+Train accuracy is: 66.02857142857142 %
+Validataion accuracy is: 72.7 %
+Epoch [14/20], Step [100/245], Loss: 0.9289
+Epoch [14/20], Step [200/245], Loss: 1.0139
+Train accuracy is: 66.63469387755102 %
+Validataion accuracy is: 73.2 %
+Epoch [15/20], Step [100/245], Loss: 0.9152
+Epoch [15/20], Step [200/245], Loss: 0.8990
+Train accuracy is: 67.17551020408163 %
+Validataion accuracy is: 75.7 %
+Epoch [16/20], Step [100/245], Loss: 0.8713
+Epoch [16/20], Step [200/245], Loss: 0.9365
+Train accuracy is: 67.3061224489796 %
+Validataion accuracy is: 73.6 %
+Epoch [17/20], Step [100/245], Loss: 0.8971
+Epoch [17/20], Step [200/245], Loss: 0.9772
+Train accuracy is: 67.82244897959184 %
+Validataion accuracy is: 75.2 %
+Epoch [18/20], Step [100/245], Loss: 0.8170
+Epoch [18/20], Step [200/245], Loss: 0.8166
+Train accuracy is: 68.52448979591837 %
+Validataion accuracy is: 75.2 %
+Epoch [19/20], Step [100/245], Loss: 0.8228
+Epoch [19/20], Step [200/245], Loss: 0.9564
+Train accuracy is: 69.08163265306122 %
+Validataion accuracy is: 74.4 %
+Epoch [20/20], Step [100/245], Loss: 1.0074
+Epoch [20/20], Step [200/245], Loss: 0.8787
+Train accuracy is: 69.21632653061225 %
+Validataion accuracy is: 74.7 %
+
+ConvNet(
+  (layers): Sequential(
+    (0): Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (2): ReLU()
+    (3): Dropout(p=0.6, inplace=False)
+    (4): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (5): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (6): ReLU()
+    (7): Dropout(p=0.6, inplace=False)
+    (8): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (9): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (10): ReLU()
+    (11): Dropout(p=0.6, inplace=False)
+    (12): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): ReLU()
+    (15): Dropout(p=0.6, inplace=False)
+    (16): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (17): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (18): ReLU()
+    (19): Dropout(p=0.6, inplace=False)
+    (20): Flatten(start_dim=1, end_dim=-1)
+    (21): Linear(in_features=512, out_features=10, bias=True)
+  )
+)
+Epoch [1/20], Step [100/245], Loss: 1.9775
+Epoch [1/20], Step [200/245], Loss: 1.8456
+Train accuracy is: 25.387755102040817 %
+Validataion accuracy is: 41.9 %
+Epoch [2/20], Step [100/245], Loss: 1.6669
+Epoch [2/20], Step [200/245], Loss: 1.6421
+Train accuracy is: 38.80408163265306 %
+Validataion accuracy is: 42.2 %
+Epoch [3/20], Step [100/245], Loss: 1.4851
+Epoch [3/20], Step [200/245], Loss: 1.4964
+Train accuracy is: 42.76938775510204 %
+Validataion accuracy is: 48.6 %
+Epoch [4/20], Step [100/245], Loss: 1.4332
+Epoch [4/20], Step [200/245], Loss: 1.4739
+Train accuracy is: 45.23265306122449 %
+Validataion accuracy is: 47.8 %
+Epoch [5/20], Step [100/245], Loss: 1.4613
+Epoch [5/20], Step [200/245], Loss: 1.6001
+Train accuracy is: 46.88979591836735 %
+Validataion accuracy is: 51.9 %
+Epoch [6/20], Step [100/245], Loss: 1.3868
+Epoch [6/20], Step [200/245], Loss: 1.2424
+Train accuracy is: 48.47142857142857 %
+Validataion accuracy is: 50.1 %
+Epoch [7/20], Step [100/245], Loss: 1.5450
+Epoch [7/20], Step [200/245], Loss: 1.3820
+Train accuracy is: 49.74081632653061 %
+Validataion accuracy is: 53.2 %
+Epoch [8/20], Step [100/245], Loss: 1.3686
+Epoch [8/20], Step [200/245], Loss: 1.3625
+Train accuracy is: 50.77142857142857 %
+Validataion accuracy is: 52.0 %
+Epoch [9/20], Step [100/245], Loss: 1.2409
+Epoch [9/20], Step [200/245], Loss: 1.3223
+Train accuracy is: 51.50204081632653 %
+Validataion accuracy is: 54.8 %
+Epoch [10/20], Step [100/245], Loss: 1.2879
+Epoch [10/20], Step [200/245], Loss: 1.3235
+Train accuracy is: 52.648979591836735 %
+Validataion accuracy is: 51.5 %
+Epoch [11/20], Step [100/245], Loss: 1.1604
+Epoch [11/20], Step [200/245], Loss: 1.3270
+Train accuracy is: 52.98979591836735 %
+Validataion accuracy is: 55.7 %
+Epoch [12/20], Step [100/245], Loss: 1.2570
+Epoch [12/20], Step [200/245], Loss: 1.2760
+Train accuracy is: 53.8 %
+Validataion accuracy is: 53.5 %
+Epoch [13/20], Step [100/245], Loss: 1.2787
+Epoch [13/20], Step [200/245], Loss: 1.1047
+Train accuracy is: 54.50816326530612 %
+Validataion accuracy is: 59.4 %
+Epoch [14/20], Step [100/245], Loss: 1.1757
+Epoch [14/20], Step [200/245], Loss: 1.2870
+Train accuracy is: 55.046938775510206 %
+Validataion accuracy is: 53.8 %
+Epoch [15/20], Step [100/245], Loss: 1.2059
+Epoch [15/20], Step [200/245], Loss: 1.1028
+Train accuracy is: 55.88979591836735 %
+Validataion accuracy is: 60.3 %
+Epoch [16/20], Step [100/245], Loss: 1.0913
+Epoch [16/20], Step [200/245], Loss: 1.2184
+Train accuracy is: 56.52040816326531 %
+Validataion accuracy is: 58.6 %
+Epoch [17/20], Step [100/245], Loss: 1.2226
+Epoch [17/20], Step [200/245], Loss: 1.2846
+Train accuracy is: 56.97551020408163 %
+Validataion accuracy is: 61.3 %
+Epoch [18/20], Step [100/245], Loss: 1.0814
+Epoch [18/20], Step [200/245], Loss: 1.0507
+Train accuracy is: 57.7 %
+Validataion accuracy is: 60.2 %
+Epoch [19/20], Step [100/245], Loss: 1.1808
+Epoch [19/20], Step [200/245], Loss: 1.3054
+Train accuracy is: 58.059183673469384 %
+Validataion accuracy is: 59.4 %
+Epoch [20/20], Step [100/245], Loss: 1.0264
+Epoch [20/20], Step [200/245], Loss: 1.2539
+Train accuracy is: 59.07551020408163 %
+Validataion accuracy is: 61.7 %
+
+ConvNet(
+  (layers): Sequential(
+    (0): Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (2): ReLU()
+    (3): Dropout(p=0.7, inplace=False)
+    (4): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (5): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (6): ReLU()
+    (7): Dropout(p=0.7, inplace=False)
+    (8): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (9): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (10): ReLU()
+    (11): Dropout(p=0.7, inplace=False)
+    (12): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): ReLU()
+    (15): Dropout(p=0.7, inplace=False)
+    (16): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (17): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (18): ReLU()
+    (19): Dropout(p=0.7, inplace=False)
+    (20): Flatten(start_dim=1, end_dim=-1)
+    (21): Linear(in_features=512, out_features=10, bias=True)
+  )
+)
+Epoch [1/20], Step [100/245], Loss: 1.9414
+Epoch [1/20], Step [200/245], Loss: 1.7507
+Train accuracy is: 24.2 %
+Validataion accuracy is: 30.6 %
+Epoch [2/20], Step [100/245], Loss: 1.7246
+Epoch [2/20], Step [200/245], Loss: 1.6613
+Train accuracy is: 33.940816326530616 %
+Validataion accuracy is: 40.8 %
+Epoch [3/20], Step [100/245], Loss: 1.7046
+Epoch [3/20], Step [200/245], Loss: 1.6104
+Train accuracy is: 37.43469387755102 %
+Validataion accuracy is: 38.7 %
+Epoch [4/20], Step [100/245], Loss: 1.8053
+Epoch [4/20], Step [200/245], Loss: 1.6882
+Train accuracy is: 39.642857142857146 %
+Validataion accuracy is: 41.4 %
+Epoch [5/20], Step [100/245], Loss: 1.6805
+Epoch [5/20], Step [200/245], Loss: 1.5444
+Train accuracy is: 41.371428571428574 %
+Validataion accuracy is: 45.3 %
+Epoch [6/20], Step [100/245], Loss: 1.5242
+Epoch [6/20], Step [200/245], Loss: 1.3766
+Train accuracy is: 42.940816326530616 %
+Validataion accuracy is: 46.2 %
+Epoch [7/20], Step [100/245], Loss: 1.5472
+Epoch [7/20], Step [200/245], Loss: 1.5320
+Train accuracy is: 44.018367346938774 %
+Validataion accuracy is: 47.4 %
+Epoch [8/20], Step [100/245], Loss: 1.5639
+Epoch [8/20], Step [200/245], Loss: 1.4969
+Train accuracy is: 45.33673469387755 %
+Validataion accuracy is: 48.3 %
+Epoch [9/20], Step [100/245], Loss: 1.5144
+Epoch [9/20], Step [200/245], Loss: 1.4779
+Train accuracy is: 45.71224489795918 %
+Validataion accuracy is: 48.7 %
+Epoch [10/20], Step [100/245], Loss: 1.4426
+Epoch [10/20], Step [200/245], Loss: 1.4538
+Train accuracy is: 46.673469387755105 %
+Validataion accuracy is: 51.6 %
+Epoch [11/20], Step [100/245], Loss: 1.4309
+Epoch [11/20], Step [200/245], Loss: 1.4618
+Train accuracy is: 47.60408163265306 %
+Validataion accuracy is: 47.2 %
+Epoch [12/20], Step [100/245], Loss: 1.4664
+Epoch [12/20], Step [200/245], Loss: 1.3174
+Train accuracy is: 48.422448979591834 %
+Validataion accuracy is: 48.4 %
+Epoch [13/20], Step [100/245], Loss: 1.4291
+Epoch [13/20], Step [200/245], Loss: 1.2767
+Train accuracy is: 49.19795918367347 %
+Validataion accuracy is: 48.0 %
+Epoch [14/20], Step [100/245], Loss: 1.4666
+Epoch [14/20], Step [200/245], Loss: 1.2745
+Train accuracy is: 50.285714285714285 %
+Validataion accuracy is: 53.0 %
+Epoch [15/20], Step [100/245], Loss: 1.2747
+Epoch [15/20], Step [200/245], Loss: 1.4001
+Train accuracy is: 50.751020408163264 %
+Validataion accuracy is: 52.9 %
+Epoch [16/20], Step [100/245], Loss: 1.3059
+Epoch [16/20], Step [200/245], Loss: 1.3854
+Train accuracy is: 51.76122448979592 %
+Validataion accuracy is: 54.2 %
+Epoch [17/20], Step [100/245], Loss: 1.3241
+Epoch [17/20], Step [200/245], Loss: 1.3195
+Train accuracy is: 51.916326530612245 %
+Validataion accuracy is: 51.7 %
+Epoch [18/20], Step [100/245], Loss: 1.2848
+Epoch [18/20], Step [200/245], Loss: 1.2796
+Train accuracy is: 52.5265306122449 %
+Validataion accuracy is: 55.3 %
+Epoch [19/20], Step [100/245], Loss: 1.3328
+Epoch [19/20], Step [200/245], Loss: 1.3614
+Train accuracy is: 53.19183673469388 %
+Validataion accuracy is: 56.2 %
+Epoch [20/20], Step [100/245], Loss: 1.3757
+Epoch [20/20], Step [200/245], Loss: 1.2941
+Train accuracy is: 53.751020408163264 %
+Validataion accuracy is: 55.5 %
+
+ConvNet(
+  (layers): Sequential(
+    (0): Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (2): ReLU()
+    (3): Dropout(p=0.8, inplace=False)
+    (4): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (5): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (6): ReLU()
+    (7): Dropout(p=0.8, inplace=False)
+    (8): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (9): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (10): ReLU()
+    (11): Dropout(p=0.8, inplace=False)
+    (12): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): ReLU()
+    (15): Dropout(p=0.8, inplace=False)
+    (16): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (17): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (18): ReLU()
+    (19): Dropout(p=0.8, inplace=False)
+    (20): Flatten(start_dim=1, end_dim=-1)
+    (21): Linear(in_features=512, out_features=10, bias=True)
+  )
+)
+Epoch [1/20], Step [100/245], Loss: 2.0149
+Epoch [1/20], Step [200/245], Loss: 1.8871
+Train accuracy is: 19.718367346938777 %
+Validataion accuracy is: 14.6 %
+Epoch [2/20], Step [100/245], Loss: 1.7824
+Epoch [2/20], Step [200/245], Loss: 1.9163
+Train accuracy is: 25.675510204081633 %
+Validataion accuracy is: 21.7 %
+Epoch [3/20], Step [100/245], Loss: 1.8961
+Epoch [3/20], Step [200/245], Loss: 1.8060
+Train accuracy is: 28.179591836734694 %
+Validataion accuracy is: 24.0 %
+Epoch [4/20], Step [100/245], Loss: 1.8021
+Epoch [4/20], Step [200/245], Loss: 1.7820
+Train accuracy is: 30.073469387755104 %
+Validataion accuracy is: 23.2 %
+Epoch [5/20], Step [100/245], Loss: 1.8453
+Epoch [5/20], Step [200/245], Loss: 1.7773
+Train accuracy is: 32.35918367346939 %
+Validataion accuracy is: 27.5 %
+Epoch [6/20], Step [100/245], Loss: 1.7506
+Epoch [6/20], Step [200/245], Loss: 1.7114
+Train accuracy is: 34.17755102040816 %
+Validataion accuracy is: 26.7 %
+Epoch [7/20], Step [100/245], Loss: 1.7130
+Epoch [7/20], Step [200/245], Loss: 1.6996
+Train accuracy is: 35.34897959183674 %
+Validataion accuracy is: 31.1 %
+Epoch [8/20], Step [100/245], Loss: 1.6705
+Epoch [8/20], Step [200/245], Loss: 1.6798
+Train accuracy is: 35.88367346938775 %
+Validataion accuracy is: 28.5 %
+Epoch [9/20], Step [100/245], Loss: 1.6915
+Epoch [9/20], Step [200/245], Loss: 1.5663
+Train accuracy is: 37.385714285714286 %
+Validataion accuracy is: 29.1 %
+Epoch [10/20], Step [100/245], Loss: 1.5648
+Epoch [10/20], Step [200/245], Loss: 1.6356
+Train accuracy is: 38.20204081632653 %
+Validataion accuracy is: 35.7 %
+Epoch [11/20], Step [100/245], Loss: 1.5868
+Epoch [11/20], Step [200/245], Loss: 1.5550
+Train accuracy is: 39.55102040816327 %
+Validataion accuracy is: 34.7 %
+Epoch [12/20], Step [100/245], Loss: 1.5638
+Epoch [12/20], Step [200/245], Loss: 1.5627
+Train accuracy is: 40.059183673469384 %
+Validataion accuracy is: 37.9 %
+Epoch [13/20], Step [100/245], Loss: 1.5618
+Epoch [13/20], Step [200/245], Loss: 1.4984
+Train accuracy is: 41.45510204081633 %
+Validataion accuracy is: 41.3 %
+Epoch [14/20], Step [100/245], Loss: 1.5968
+Epoch [14/20], Step [200/245], Loss: 1.4454
+Train accuracy is: 42.06734693877551 %
+Validataion accuracy is: 43.7 %
+Epoch [15/20], Step [100/245], Loss: 1.5079
+Epoch [15/20], Step [200/245], Loss: 1.6337
+Train accuracy is: 42.49183673469388 %
+Validataion accuracy is: 42.4 %
+Epoch [16/20], Step [100/245], Loss: 1.5162
+Epoch [16/20], Step [200/245], Loss: 1.4353
+Train accuracy is: 43.51020408163265 %
+Validataion accuracy is: 44.1 %
+Epoch [17/20], Step [100/245], Loss: 1.5655
+Epoch [17/20], Step [200/245], Loss: 1.5859
+Train accuracy is: 44.3 %
+Validataion accuracy is: 46.2 %
+Epoch [18/20], Step [100/245], Loss: 1.2802
+Epoch [18/20], Step [200/245], Loss: 1.4634
+Train accuracy is: 45.220408163265304 %
+Validataion accuracy is: 47.5 %
+Epoch [19/20], Step [100/245], Loss: 1.5649
+Epoch [19/20], Step [200/245], Loss: 1.4624
+Train accuracy is: 45.67551020408163 %
+Validataion accuracy is: 47.3 %
+Epoch [20/20], Step [100/245], Loss: 1.4221
+Epoch [20/20], Step [200/245], Loss: 1.4717
+Train accuracy is: 46.340816326530614 %
+Validataion accuracy is: 46.8 %
+
+ConvNet(
+  (layers): Sequential(
+    (0): Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (2): ReLU()
+    (3): Dropout(p=0.9, inplace=False)
+    (4): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (5): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (6): ReLU()
+    (7): Dropout(p=0.9, inplace=False)
+    (8): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (9): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (10): ReLU()
+    (11): Dropout(p=0.9, inplace=False)
+    (12): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): ReLU()
+    (15): Dropout(p=0.9, inplace=False)
+    (16): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (17): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (18): ReLU()
+    (19): Dropout(p=0.9, inplace=False)
+    (20): Flatten(start_dim=1, end_dim=-1)
+    (21): Linear(in_features=512, out_features=10, bias=True)
+  )
+)
+Epoch [1/20], Step [100/245], Loss: 2.3978
+Epoch [1/20], Step [200/245], Loss: 2.4051
+Train accuracy is: 10.442857142857143 %
+Validataion accuracy is: 7.8 %
+Epoch [2/20], Step [100/245], Loss: 2.2931
+Epoch [2/20], Step [200/245], Loss: 2.3361
+Train accuracy is: 11.261224489795918 %
+Validataion accuracy is: 10.2 %
+Epoch [3/20], Step [100/245], Loss: 2.2500
+Epoch [3/20], Step [200/245], Loss: 2.2223
+Train accuracy is: 14.516326530612245 %
+Validataion accuracy is: 10.2 %
+Epoch [4/20], Step [100/245], Loss: 2.2745
+Epoch [4/20], Step [200/245], Loss: 2.1852
+Train accuracy is: 15.773469387755101 %
+Validataion accuracy is: 7.8 %
+Epoch [5/20], Step [100/245], Loss: 2.2164
+Epoch [5/20], Step [200/245], Loss: 2.1843
+Train accuracy is: 16.679591836734694 %
+Validataion accuracy is: 7.8 %
+Epoch [6/20], Step [100/245], Loss: 2.2065
+Epoch [6/20], Step [200/245], Loss: 2.1941
+Train accuracy is: 17.042857142857144 %
+Validataion accuracy is: 10.2 %
+Epoch [7/20], Step [100/245], Loss: 2.1661
+Epoch [7/20], Step [200/245], Loss: 2.1514
+Train accuracy is: 17.53265306122449 %
+Validataion accuracy is: 10.2 %
+Epoch [8/20], Step [100/245], Loss: 2.1266
+Epoch [8/20], Step [200/245], Loss: 2.1052
+Train accuracy is: 18.057142857142857 %
+Validataion accuracy is: 10.2 %
+Epoch [9/20], Step [100/245], Loss: 2.0725
+Epoch [9/20], Step [200/245], Loss: 2.0723
+Train accuracy is: 18.181632653061225 %
+Validataion accuracy is: 10.2 %
+Epoch [10/20], Step [100/245], Loss: 2.1191
+Epoch [10/20], Step [200/245], Loss: 2.1585
+Train accuracy is: 18.59795918367347 %
+Validataion accuracy is: 10.2 %
+Epoch [11/20], Step [100/245], Loss: 2.0177
+Epoch [11/20], Step [200/245], Loss: 2.0802
+Train accuracy is: 18.781632653061223 %
+Validataion accuracy is: 10.2 %
+Epoch [12/20], Step [100/245], Loss: 2.0412
+Epoch [12/20], Step [200/245], Loss: 2.0451
+Train accuracy is: 18.89387755102041 %
+Validataion accuracy is: 10.2 %
+Epoch [13/20], Step [100/245], Loss: 2.0412
+Epoch [13/20], Step [200/245], Loss: 2.0504
+Train accuracy is: 19.29795918367347 %
+Validataion accuracy is: 10.2 %
+Epoch [14/20], Step [100/245], Loss: 2.1747
+Epoch [14/20], Step [200/245], Loss: 2.1425
+Train accuracy is: 19.316326530612244 %
+Validataion accuracy is: 10.2 %
+Epoch [15/20], Step [100/245], Loss: 2.0777
+Epoch [15/20], Step [200/245], Loss: 2.0558
+Train accuracy is: 19.646938775510204 %
+Validataion accuracy is: 10.2 %
+Epoch [16/20], Step [100/245], Loss: 1.9893
+Epoch [16/20], Step [200/245], Loss: 2.0732
+Train accuracy is: 19.487755102040815 %
+Validataion accuracy is: 10.2 %
+Epoch [17/20], Step [100/245], Loss: 2.0038
+Epoch [17/20], Step [200/245], Loss: 2.0508
+Train accuracy is: 19.90612244897959 %
+Validataion accuracy is: 10.2 %
+Epoch [18/20], Step [100/245], Loss: 2.1438
+Epoch [18/20], Step [200/245], Loss: 1.9759
+Train accuracy is: 20.1 %
+Validataion accuracy is: 10.2 %
+Epoch [19/20], Step [100/245], Loss: 1.9644
+Epoch [19/20], Step [200/245], Loss: 1.9980
+Train accuracy is: 20.663265306122447 %
+Validataion accuracy is: 10.2 %
+Epoch [20/20], Step [100/245], Loss: 1.9416
+Epoch [20/20], Step [200/245], Loss: 1.9294
+Train accuracy is: 21.244897959183675 %
+Validataion accuracy is: 10.2 %
+
+

@@ -1,0 +1,102 @@
+ConvNet(
+  (layers): Sequential(
+    (0): Conv2d(3, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (2): ReLU()
+    (3): Conv2d(128, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (4): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (5): ReLU()
+    (6): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (7): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (8): ReLU()
+    (9): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (10): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (11): ReLU()
+    (12): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (13): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (14): ReLU()
+    (15): Flatten(start_dim=1, end_dim=-1)
+    (16): Linear(in_features=512, out_features=10, bias=True)
+  )
+)
+Epoch [1/20], Step [100/245], Loss: 1.7338
+Epoch [1/20], Step [200/245], Loss: 1.4545
+Train accuracy is: 35.96734693877551 %
+Validataion accuracy is: 50.9 %
+Epoch [2/20], Step [100/245], Loss: 1.2711
+Epoch [2/20], Step [200/245], Loss: 1.1221
+Train accuracy is: 57.37755102040816 %
+Validataion accuracy is: 61.8 %
+Epoch [3/20], Step [100/245], Loss: 0.8622
+Epoch [3/20], Step [200/245], Loss: 0.8346
+Train accuracy is: 66.89183673469388 %
+Validataion accuracy is: 70.1 %
+Epoch [4/20], Step [100/245], Loss: 0.7804
+Epoch [4/20], Step [200/245], Loss: 0.6738
+Train accuracy is: 72.61428571428571 %
+Validataion accuracy is: 74.5 %
+Epoch [5/20], Step [100/245], Loss: 0.7753
+Epoch [5/20], Step [200/245], Loss: 0.7097
+Train accuracy is: 76.79591836734694 %
+Validataion accuracy is: 76.4 %
+Epoch [6/20], Step [100/245], Loss: 0.6045
+Epoch [6/20], Step [200/245], Loss: 0.5902
+Train accuracy is: 79.28775510204082 %
+Validataion accuracy is: 74.9 %
+Epoch [7/20], Step [100/245], Loss: 0.4466
+Epoch [7/20], Step [200/245], Loss: 0.5485
+Train accuracy is: 81.79591836734694 %
+Validataion accuracy is: 78.2 %
+Epoch [8/20], Step [100/245], Loss: 0.4363
+Epoch [8/20], Step [200/245], Loss: 0.5197
+Train accuracy is: 83.72244897959183 %
+Validataion accuracy is: 77.0 %
+Epoch [9/20], Step [100/245], Loss: 0.5049
+Epoch [9/20], Step [200/245], Loss: 0.4391
+Train accuracy is: 85.55510204081632 %
+Validataion accuracy is: 78.3 %
+Epoch [10/20], Step [100/245], Loss: 0.3177
+Epoch [10/20], Step [200/245], Loss: 0.3708
+Train accuracy is: 87.08979591836734 %
+Validataion accuracy is: 79.9 %
+Epoch [11/20], Step [100/245], Loss: 0.3950
+Epoch [11/20], Step [200/245], Loss: 0.3206
+Train accuracy is: 88.51020408163265 %
+Validataion accuracy is: 79.9 %
+Epoch [12/20], Step [100/245], Loss: 0.2201
+Epoch [12/20], Step [200/245], Loss: 0.3244
+Train accuracy is: 90.3 %
+Validataion accuracy is: 81.3 %
+Epoch [13/20], Step [100/245], Loss: 0.3063
+Epoch [13/20], Step [200/245], Loss: 0.2437
+Train accuracy is: 91.6734693877551 %
+Validataion accuracy is: 78.4 %
+Epoch [14/20], Step [100/245], Loss: 0.2341
+Epoch [14/20], Step [200/245], Loss: 0.2288
+Train accuracy is: 92.67142857142858 %
+Validataion accuracy is: 79.5 %
+Epoch [15/20], Step [100/245], Loss: 0.1245
+Epoch [15/20], Step [200/245], Loss: 0.1933
+Train accuracy is: 94.2469387755102 %
+Validataion accuracy is: 79.8 %
+Epoch [16/20], Step [100/245], Loss: 0.1209
+Epoch [16/20], Step [200/245], Loss: 0.1505
+Train accuracy is: 95.06734693877551 %
+Validataion accuracy is: 79.5 %
+Epoch [17/20], Step [100/245], Loss: 0.1006
+Epoch [17/20], Step [200/245], Loss: 0.1843
+Train accuracy is: 96.0265306122449 %
+Validataion accuracy is: 79.3 %
+Epoch [18/20], Step [100/245], Loss: 0.0997
+Epoch [18/20], Step [200/245], Loss: 0.1123
+Train accuracy is: 96.8 %
+Validataion accuracy is: 79.9 %
+Epoch [19/20], Step [100/245], Loss: 0.0816
+Epoch [19/20], Step [200/245], Loss: 0.0958
+Train accuracy is: 97.36122448979592 %
+Validataion accuracy is: 80.7 %
+Epoch [20/20], Step [100/245], Loss: 0.0410
+Epoch [20/20], Step [200/245], Loss: 0.0544
+Train accuracy is: 98.11632653061224 %
+Validataion accuracy is: 79.3 %
+
