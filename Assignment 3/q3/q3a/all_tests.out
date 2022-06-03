@@ -1,0 +1,699 @@
+Data augmentation type: [RandomRotation(degrees=[-90.0, 90.0], interpolation=nearest, expand=False, fill=0)]
+Epoch [1/30], Step [100/245], Loss: 1.4998
+Epoch [1/30], Step [200/245], Loss: 1.6013
+Train accuracy is: 35.04897959183673 %
+Validataion accuracy is: 44.0 %
+New best validation accuracy: 44.0 %
+Epoch [2/30], Step [100/245], Loss: 1.4108
+Epoch [2/30], Step [200/245], Loss: 1.5041
+Train accuracy is: 44.6204081632653 %
+Validataion accuracy is: 38.5 %
+Epoch [3/30], Step [100/245], Loss: 1.4026
+Epoch [3/30], Step [200/245], Loss: 1.1870
+Train accuracy is: 50.128571428571426 %
+Validataion accuracy is: 42.6 %
+Epoch [4/30], Step [100/245], Loss: 1.2794
+Epoch [4/30], Step [200/245], Loss: 1.1677
+Train accuracy is: 55.67551020408163 %
+Validataion accuracy is: 56.5 %
+New best validation accuracy: 56.5 %
+Epoch [5/30], Step [100/245], Loss: 1.0011
+Epoch [5/30], Step [200/245], Loss: 1.1198
+Train accuracy is: 59.089795918367344 %
+Validataion accuracy is: 61.8 %
+New best validation accuracy: 61.8 %
+Epoch [6/30], Step [100/245], Loss: 1.1036
+Epoch [6/30], Step [200/245], Loss: 1.1106
+Train accuracy is: 61.91836734693877 %
+Validataion accuracy is: 60.1 %
+Epoch [7/30], Step [100/245], Loss: 0.9453
+Epoch [7/30], Step [200/245], Loss: 0.9821
+Train accuracy is: 64.02448979591837 %
+Validataion accuracy is: 62.3 %
+New best validation accuracy: 62.3 %
+Epoch [8/30], Step [100/245], Loss: 0.9016
+Epoch [8/30], Step [200/245], Loss: 0.9681
+Train accuracy is: 65.27755102040817 %
+Validataion accuracy is: 63.1 %
+New best validation accuracy: 63.1 %
+Epoch [9/30], Step [100/245], Loss: 1.0941
+Epoch [9/30], Step [200/245], Loss: 0.9025
+Train accuracy is: 66.83877551020409 %
+Validataion accuracy is: 67.0 %
+New best validation accuracy: 67.0 %
+Epoch [10/30], Step [100/245], Loss: 0.9431
+Epoch [10/30], Step [200/245], Loss: 0.9471
+Train accuracy is: 67.99591836734695 %
+Validataion accuracy is: 65.3 %
+Epoch [11/30], Step [100/245], Loss: 0.8976
+Epoch [11/30], Step [200/245], Loss: 0.7725
+Train accuracy is: 68.8265306122449 %
+Validataion accuracy is: 69.6 %
+New best validation accuracy: 69.6 %
+Epoch [12/30], Step [100/245], Loss: 0.8737
+Epoch [12/30], Step [200/245], Loss: 0.8991
+Train accuracy is: 69.84081632653061 %
+Validataion accuracy is: 68.3 %
+Epoch [13/30], Step [100/245], Loss: 0.8727
+Epoch [13/30], Step [200/245], Loss: 0.7526
+Train accuracy is: 70.86734693877551 %
+Validataion accuracy is: 67.1 %
+Epoch [14/30], Step [100/245], Loss: 0.8497
+Epoch [14/30], Step [200/245], Loss: 0.8064
+Train accuracy is: 71.2408163265306 %
+Validataion accuracy is: 68.9 %
+Epoch [15/30], Step [100/245], Loss: 0.8446
+Epoch [15/30], Step [200/245], Loss: 0.8838
+Train accuracy is: 72.10204081632654 %
+Validataion accuracy is: 71.8 %
+New best validation accuracy: 71.8 %
+Epoch [16/30], Step [100/245], Loss: 0.8472
+Epoch [16/30], Step [200/245], Loss: 0.8056
+Train accuracy is: 72.51632653061225 %
+Validataion accuracy is: 70.4 %
+Epoch [17/30], Step [100/245], Loss: 0.7808
+Epoch [17/30], Step [200/245], Loss: 0.8005
+Train accuracy is: 73.32448979591837 %
+Validataion accuracy is: 68.6 %
+Epoch [18/30], Step [100/245], Loss: 0.7487
+Epoch [18/30], Step [200/245], Loss: 0.7679
+Train accuracy is: 73.86734693877551 %
+Validataion accuracy is: 69.8 %
+Epoch [19/30], Step [100/245], Loss: 0.7933
+Epoch [19/30], Step [200/245], Loss: 0.6969
+Train accuracy is: 74.58163265306122 %
+Validataion accuracy is: 73.0 %
+New best validation accuracy: 73.0 %
+Epoch [20/30], Step [100/245], Loss: 0.8506
+Epoch [20/30], Step [200/245], Loss: 0.7203
+Train accuracy is: 75.03673469387755 %
+Validataion accuracy is: 72.8 %
+Epoch [21/30], Step [100/245], Loss: 0.6017
+Epoch [21/30], Step [200/245], Loss: 0.8062
+Train accuracy is: 75.61224489795919 %
+Validataion accuracy is: 72.7 %
+Epoch [22/30], Step [100/245], Loss: 0.8827
+Epoch [22/30], Step [200/245], Loss: 0.7583
+Train accuracy is: 76.2673469387755 %
+Validataion accuracy is: 74.2 %
+New best validation accuracy: 74.2 %
+Epoch [23/30], Step [100/245], Loss: 0.7872
+Epoch [23/30], Step [200/245], Loss: 0.6744
+Train accuracy is: 76.59591836734694 %
+Validataion accuracy is: 72.9 %
+Epoch [24/30], Step [100/245], Loss: 0.5687
+Epoch [24/30], Step [200/245], Loss: 0.6602
+Train accuracy is: 77.03061224489795 %
+Validataion accuracy is: 74.0 %
+Epoch [25/30], Step [100/245], Loss: 0.6759
+Epoch [25/30], Step [200/245], Loss: 0.7761
+Train accuracy is: 77.62653061224489 %
+Validataion accuracy is: 74.3 %
+New best validation accuracy: 74.3 %
+Epoch [26/30], Step [100/245], Loss: 0.6044
+Epoch [26/30], Step [200/245], Loss: 0.5989
+Train accuracy is: 77.98979591836735 %
+Validataion accuracy is: 73.8 %
+Epoch [27/30], Step [100/245], Loss: 0.6565
+Epoch [27/30], Step [200/245], Loss: 0.5475
+Train accuracy is: 78.28367346938775 %
+Validataion accuracy is: 76.0 %
+New best validation accuracy: 76.0 %
+Epoch [28/30], Step [100/245], Loss: 0.6315
+Epoch [28/30], Step [200/245], Loss: 0.6592
+Train accuracy is: 78.91020408163266 %
+Validataion accuracy is: 76.2 %
+New best validation accuracy: 76.2 %
+Epoch [29/30], Step [100/245], Loss: 0.5525
+Epoch [29/30], Step [200/245], Loss: 0.5143
+Train accuracy is: 79.05510204081632 %
+Validataion accuracy is: 76.5 %
+New best validation accuracy: 76.5 %
+Epoch [30/30], Step [100/245], Loss: 0.6026
+Epoch [30/30], Step [200/245], Loss: 0.5446
+Train accuracy is: 79.62653061224489 %
+Validataion accuracy is: 75.6 %
+
+
+
+Data augmentation type: [RandomRotation(degrees=[-90.0, 90.0], interpolation=nearest, expand=False, fill=0), RandomHorizontalFlip(p=0.5)]
+Epoch [1/30], Step [100/245], Loss: 1.9022
+Epoch [1/30], Step [200/245], Loss: 1.5281
+Train accuracy is: 35.07142857142857 %
+Validataion accuracy is: 35.8 %
+New best validation accuracy: 35.8 %
+Epoch [2/30], Step [100/245], Loss: 1.5814
+Epoch [2/30], Step [200/245], Loss: 1.4121
+Train accuracy is: 44.916326530612245 %
+Validataion accuracy is: 44.9 %
+New best validation accuracy: 44.9 %
+Epoch [3/30], Step [100/245], Loss: 1.4145
+Epoch [3/30], Step [200/245], Loss: 1.2453
+Train accuracy is: 50.820408163265306 %
+Validataion accuracy is: 48.1 %
+New best validation accuracy: 48.1 %
+Epoch [4/30], Step [100/245], Loss: 1.2742
+Epoch [4/30], Step [200/245], Loss: 1.2970
+Train accuracy is: 55.8 %
+Validataion accuracy is: 52.4 %
+New best validation accuracy: 52.4 %
+Epoch [5/30], Step [100/245], Loss: 1.2005
+Epoch [5/30], Step [200/245], Loss: 1.0723
+Train accuracy is: 59.72244897959184 %
+Validataion accuracy is: 55.0 %
+New best validation accuracy: 55.0 %
+Epoch [6/30], Step [100/245], Loss: 1.1374
+Epoch [6/30], Step [200/245], Loss: 0.8992
+Train accuracy is: 61.926530612244896 %
+Validataion accuracy is: 59.7 %
+New best validation accuracy: 59.7 %
+Epoch [7/30], Step [100/245], Loss: 0.9323
+Epoch [7/30], Step [200/245], Loss: 1.1788
+Train accuracy is: 63.60612244897959 %
+Validataion accuracy is: 64.5 %
+New best validation accuracy: 64.5 %
+Epoch [8/30], Step [100/245], Loss: 0.9382
+Epoch [8/30], Step [200/245], Loss: 0.9934
+Train accuracy is: 65.4938775510204 %
+Validataion accuracy is: 64.6 %
+New best validation accuracy: 64.6 %
+Epoch [9/30], Step [100/245], Loss: 0.9388
+Epoch [9/30], Step [200/245], Loss: 0.8820
+Train accuracy is: 66.68163265306123 %
+Validataion accuracy is: 60.9 %
+Epoch [10/30], Step [100/245], Loss: 0.9608
+Epoch [10/30], Step [200/245], Loss: 0.9804
+Train accuracy is: 67.69183673469388 %
+Validataion accuracy is: 63.2 %
+Epoch [11/30], Step [100/245], Loss: 0.9267
+Epoch [11/30], Step [200/245], Loss: 0.9271
+Train accuracy is: 68.53061224489795 %
+Validataion accuracy is: 67.9 %
+New best validation accuracy: 67.9 %
+Epoch [12/30], Step [100/245], Loss: 0.8478
+Epoch [12/30], Step [200/245], Loss: 1.0057
+Train accuracy is: 69.48775510204082 %
+Validataion accuracy is: 70.0 %
+New best validation accuracy: 70.0 %
+Epoch [13/30], Step [100/245], Loss: 0.8742
+Epoch [13/30], Step [200/245], Loss: 0.6762
+Train accuracy is: 70.13061224489796 %
+Validataion accuracy is: 68.7 %
+Epoch [14/30], Step [100/245], Loss: 0.8489
+Epoch [14/30], Step [200/245], Loss: 0.7258
+Train accuracy is: 70.80204081632652 %
+Validataion accuracy is: 67.9 %
+Epoch [15/30], Step [100/245], Loss: 0.8033
+Epoch [15/30], Step [200/245], Loss: 0.8368
+Train accuracy is: 71.61836734693877 %
+Validataion accuracy is: 71.9 %
+New best validation accuracy: 71.9 %
+Epoch [16/30], Step [100/245], Loss: 0.8245
+Epoch [16/30], Step [200/245], Loss: 0.6963
+Train accuracy is: 72.14285714285714 %
+Validataion accuracy is: 67.7 %
+Epoch [17/30], Step [100/245], Loss: 0.7599
+Epoch [17/30], Step [200/245], Loss: 0.7560
+Train accuracy is: 72.82244897959184 %
+Validataion accuracy is: 70.7 %
+Epoch [18/30], Step [100/245], Loss: 0.7377
+Epoch [18/30], Step [200/245], Loss: 0.7868
+Train accuracy is: 73.2591836734694 %
+Validataion accuracy is: 72.9 %
+New best validation accuracy: 72.9 %
+Epoch [19/30], Step [100/245], Loss: 0.5772
+Epoch [19/30], Step [200/245], Loss: 0.6924
+Train accuracy is: 73.83673469387755 %
+Validataion accuracy is: 73.3 %
+New best validation accuracy: 73.3 %
+Epoch [20/30], Step [100/245], Loss: 0.7423
+Epoch [20/30], Step [200/245], Loss: 0.7408
+Train accuracy is: 74.40816326530613 %
+Validataion accuracy is: 70.0 %
+Epoch [21/30], Step [100/245], Loss: 0.6844
+Epoch [21/30], Step [200/245], Loss: 0.7267
+Train accuracy is: 74.64693877551021 %
+Validataion accuracy is: 73.5 %
+New best validation accuracy: 73.5 %
+Epoch [22/30], Step [100/245], Loss: 0.7351
+Epoch [22/30], Step [200/245], Loss: 0.8009
+Train accuracy is: 75.33877551020409 %
+Validataion accuracy is: 73.3 %
+Epoch [23/30], Step [100/245], Loss: 0.7402
+Epoch [23/30], Step [200/245], Loss: 0.7282
+Train accuracy is: 75.60612244897959 %
+Validataion accuracy is: 73.8 %
+New best validation accuracy: 73.8 %
+Epoch [24/30], Step [100/245], Loss: 0.6106
+Epoch [24/30], Step [200/245], Loss: 0.7150
+Train accuracy is: 76.15714285714286 %
+Validataion accuracy is: 74.0 %
+New best validation accuracy: 74.0 %
+Epoch [25/30], Step [100/245], Loss: 0.7274
+Epoch [25/30], Step [200/245], Loss: 0.6405
+Train accuracy is: 76.63061224489796 %
+Validataion accuracy is: 74.1 %
+New best validation accuracy: 74.1 %
+Epoch [26/30], Step [100/245], Loss: 0.6154
+Epoch [26/30], Step [200/245], Loss: 0.6089
+Train accuracy is: 77.06938775510204 %
+Validataion accuracy is: 74.5 %
+New best validation accuracy: 74.5 %
+Epoch [27/30], Step [100/245], Loss: 0.6968
+Epoch [27/30], Step [200/245], Loss: 0.7788
+Train accuracy is: 77.3 %
+Validataion accuracy is: 73.7 %
+Epoch [28/30], Step [100/245], Loss: 0.5792
+Epoch [28/30], Step [200/245], Loss: 0.7099
+Train accuracy is: 77.60204081632654 %
+Validataion accuracy is: 76.0 %
+New best validation accuracy: 76.0 %
+Epoch [29/30], Step [100/245], Loss: 0.6128
+Epoch [29/30], Step [200/245], Loss: 0.6774
+Train accuracy is: 78.1 %
+Validataion accuracy is: 76.9 %
+New best validation accuracy: 76.9 %
+Epoch [30/30], Step [100/245], Loss: 0.7649
+Epoch [30/30], Step [200/245], Loss: 0.5592
+Train accuracy is: 78.50408163265305 %
+Validataion accuracy is: 75.6 %
+
+
+Data augmentation type: [RandomRotation(degrees=[-90.0, 90.0], interpolation=nearest, expand=False, fill=0), RandomHorizontalFlip(p=0.5), RandomVerticalFlip(p=0.5)]
+Epoch [1/30], Step [100/245], Loss: 1.9637
+Epoch [1/30], Step [200/245], Loss: 1.7127
+Train accuracy is: 30.930612244897958 %
+Validataion accuracy is: 40.5 %
+New best validation accuracy: 40.5 %
+Epoch [2/30], Step [100/245], Loss: 1.5706
+Epoch [2/30], Step [200/245], Loss: 1.6609
+Train accuracy is: 40.69591836734694 %
+Validataion accuracy is: 35.8 %
+Epoch [3/30], Step [100/245], Loss: 1.5849
+Epoch [3/30], Step [200/245], Loss: 1.5524
+Train accuracy is: 45.059183673469384 %
+Validataion accuracy is: 40.9 %
+New best validation accuracy: 40.9 %
+Epoch [4/30], Step [100/245], Loss: 1.4251
+Epoch [4/30], Step [200/245], Loss: 1.4103
+Train accuracy is: 50.09591836734694 %
+Validataion accuracy is: 45.2 %
+New best validation accuracy: 45.2 %
+Epoch [5/30], Step [100/245], Loss: 1.3651
+Epoch [5/30], Step [200/245], Loss: 1.2814
+Train accuracy is: 53.608163265306125 %
+Validataion accuracy is: 47.6 %
+New best validation accuracy: 47.6 %
+Epoch [6/30], Step [100/245], Loss: 1.0517
+Epoch [6/30], Step [200/245], Loss: 1.2555
+Train accuracy is: 56.19795918367347 %
+Validataion accuracy is: 58.0 %
+New best validation accuracy: 58.0 %
+Epoch [7/30], Step [100/245], Loss: 1.2036
+Epoch [7/30], Step [200/245], Loss: 1.2022
+Train accuracy is: 58.053061224489795 %
+Validataion accuracy is: 55.7 %
+Epoch [8/30], Step [100/245], Loss: 1.0545
+Epoch [8/30], Step [200/245], Loss: 1.1316
+Train accuracy is: 59.66938775510204 %
+Validataion accuracy is: 60.3 %
+New best validation accuracy: 60.3 %
+Epoch [9/30], Step [100/245], Loss: 1.0763
+Epoch [9/30], Step [200/245], Loss: 0.9873
+Train accuracy is: 61.00408163265306 %
+Validataion accuracy is: 58.3 %
+Epoch [10/30], Step [100/245], Loss: 1.1843
+Epoch [10/30], Step [200/245], Loss: 1.1129
+Train accuracy is: 61.70816326530612 %
+Validataion accuracy is: 56.7 %
+Epoch [11/30], Step [100/245], Loss: 0.9953
+Epoch [11/30], Step [200/245], Loss: 1.1034
+Train accuracy is: 62.86530612244898 %
+Validataion accuracy is: 59.1 %
+Epoch [12/30], Step [100/245], Loss: 0.8717
+Epoch [12/30], Step [200/245], Loss: 1.0451
+Train accuracy is: 63.69795918367347 %
+Validataion accuracy is: 61.9 %
+New best validation accuracy: 61.9 %
+Epoch [13/30], Step [100/245], Loss: 1.0035
+Epoch [13/30], Step [200/245], Loss: 1.0621
+Train accuracy is: 64.33877551020409 %
+Validataion accuracy is: 64.1 %
+New best validation accuracy: 64.1 %
+Epoch [14/30], Step [100/245], Loss: 0.9779
+Epoch [14/30], Step [200/245], Loss: 0.8863
+Train accuracy is: 65.06326530612245 %
+Validataion accuracy is: 64.8 %
+New best validation accuracy: 64.8 %
+Epoch [15/30], Step [100/245], Loss: 0.9640
+Epoch [15/30], Step [200/245], Loss: 0.9466
+Train accuracy is: 65.89591836734694 %
+Validataion accuracy is: 65.2 %
+New best validation accuracy: 65.2 %
+Epoch [16/30], Step [100/245], Loss: 0.8800
+Epoch [16/30], Step [200/245], Loss: 1.1538
+Train accuracy is: 66.5326530612245 %
+Validataion accuracy is: 66.9 %
+New best validation accuracy: 66.9 %
+Epoch [17/30], Step [100/245], Loss: 1.0057
+Epoch [17/30], Step [200/245], Loss: 0.8684
+Train accuracy is: 67.2 %
+Validataion accuracy is: 67.4 %
+New best validation accuracy: 67.4 %
+Epoch [18/30], Step [100/245], Loss: 1.0365
+Epoch [18/30], Step [200/245], Loss: 0.9853
+Train accuracy is: 67.2673469387755 %
+Validataion accuracy is: 65.3 %
+Epoch [19/30], Step [100/245], Loss: 0.9071
+Epoch [19/30], Step [200/245], Loss: 0.8734
+Train accuracy is: 68.2204081632653 %
+Validataion accuracy is: 68.3 %
+New best validation accuracy: 68.3 %
+Epoch [20/30], Step [100/245], Loss: 0.8178
+Epoch [20/30], Step [200/245], Loss: 0.8653
+Train accuracy is: 68.52448979591837 %
+Validataion accuracy is: 66.4 %
+Epoch [21/30], Step [100/245], Loss: 0.9354
+Epoch [21/30], Step [200/245], Loss: 0.7451
+Train accuracy is: 69.2591836734694 %
+Validataion accuracy is: 68.0 %
+Epoch [22/30], Step [100/245], Loss: 0.8034
+Epoch [22/30], Step [200/245], Loss: 0.8576
+Train accuracy is: 69.67959183673469 %
+Validataion accuracy is: 68.3 %
+Epoch [23/30], Step [100/245], Loss: 0.9105
+Epoch [23/30], Step [200/245], Loss: 0.9941
+Train accuracy is: 69.83877551020409 %
+Validataion accuracy is: 67.7 %
+Epoch [24/30], Step [100/245], Loss: 0.8737
+Epoch [24/30], Step [200/245], Loss: 0.8389
+Train accuracy is: 70.40204081632653 %
+Validataion accuracy is: 69.6 %
+New best validation accuracy: 69.6 %
+Epoch [25/30], Step [100/245], Loss: 0.8693
+Epoch [25/30], Step [200/245], Loss: 0.7247
+Train accuracy is: 70.81836734693877 %
+Validataion accuracy is: 70.8 %
+New best validation accuracy: 70.8 %
+Epoch [26/30], Step [100/245], Loss: 0.8384
+Epoch [26/30], Step [200/245], Loss: 0.7778
+Train accuracy is: 71.2408163265306 %
+Validataion accuracy is: 71.1 %
+New best validation accuracy: 71.1 %
+Epoch [27/30], Step [100/245], Loss: 0.8249
+Epoch [27/30], Step [200/245], Loss: 0.7798
+Train accuracy is: 71.36734693877551 %
+Validataion accuracy is: 69.4 %
+Epoch [28/30], Step [100/245], Loss: 0.7775
+Epoch [28/30], Step [200/245], Loss: 0.8584
+Train accuracy is: 71.82244897959184 %
+Validataion accuracy is: 72.3 %
+New best validation accuracy: 72.3 %
+Epoch [29/30], Step [100/245], Loss: 0.7811
+Epoch [29/30], Step [200/245], Loss: 0.8153
+Train accuracy is: 72.29795918367347 %
+Validataion accuracy is: 70.7 %
+Epoch [30/30], Step [100/245], Loss: 0.7374
+Epoch [30/30], Step [200/245], Loss: 0.8938
+Train accuracy is: 72.63265306122449 %
+Validataion accuracy is: 71.2 %
+
+
+Data augmentation type: [RandomRotation(degrees=[-90.0, 90.0], interpolation=nearest, expand=False, fill=0), RandomHorizontalFlip(p=0.5), RandomVerticalFlip(p=0.5), RandomAffine(degrees=[0.0, 0.0], translate=(0.4, 0.5))]
+Epoch [1/30], Step [100/245], Loss: 2.0572
+Epoch [1/30], Step [200/245], Loss: 1.9729
+Train accuracy is: 24.314285714285713 %
+Validataion accuracy is: 26.7 %
+New best validation accuracy: 26.7 %
+Epoch [2/30], Step [100/245], Loss: 1.9078
+Epoch [2/30], Step [200/245], Loss: 1.9548
+Train accuracy is: 27.773469387755103 %
+Validataion accuracy is: 27.3 %
+New best validation accuracy: 27.3 %
+Epoch [3/30], Step [100/245], Loss: 1.8382
+Epoch [3/30], Step [200/245], Loss: 1.8745
+Train accuracy is: 30.775510204081634 %
+Validataion accuracy is: 31.8 %
+New best validation accuracy: 31.8 %
+Epoch [4/30], Step [100/245], Loss: 1.6487
+Epoch [4/30], Step [200/245], Loss: 1.7365
+Train accuracy is: 35.1204081632653 %
+Validataion accuracy is: 34.8 %
+New best validation accuracy: 34.8 %
+Epoch [5/30], Step [100/245], Loss: 1.7035
+Epoch [5/30], Step [200/245], Loss: 1.5843
+Train accuracy is: 38.78367346938776 %
+Validataion accuracy is: 39.9 %
+New best validation accuracy: 39.9 %
+Epoch [6/30], Step [100/245], Loss: 1.5581
+Epoch [6/30], Step [200/245], Loss: 1.5536
+Train accuracy is: 40.92040816326531 %
+Validataion accuracy is: 42.1 %
+New best validation accuracy: 42.1 %
+Epoch [7/30], Step [100/245], Loss: 1.5416
+Epoch [7/30], Step [200/245], Loss: 1.6057
+Train accuracy is: 43.96530612244898 %
+Validataion accuracy is: 39.7 %
+Epoch [8/30], Step [100/245], Loss: 1.5173
+Epoch [8/30], Step [200/245], Loss: 1.3673
+Train accuracy is: 45.73877551020408 %
+Validataion accuracy is: 43.8 %
+New best validation accuracy: 43.8 %
+Epoch [9/30], Step [100/245], Loss: 1.5329
+Epoch [9/30], Step [200/245], Loss: 1.4038
+Train accuracy is: 47.440816326530616 %
+Validataion accuracy is: 48.2 %
+New best validation accuracy: 48.2 %
+Epoch [10/30], Step [100/245], Loss: 1.4476
+Epoch [10/30], Step [200/245], Loss: 1.3233
+Train accuracy is: 48.56530612244898 %
+Validataion accuracy is: 46.8 %
+Epoch [11/30], Step [100/245], Loss: 1.3668
+Epoch [11/30], Step [200/245], Loss: 1.3790
+Train accuracy is: 50.05714285714286 %
+Validataion accuracy is: 47.4 %
+Epoch [12/30], Step [100/245], Loss: 1.3503
+Epoch [12/30], Step [200/245], Loss: 1.2948
+Train accuracy is: 50.83877551020408 %
+Validataion accuracy is: 50.0 %
+New best validation accuracy: 50.0 %
+Epoch [13/30], Step [100/245], Loss: 1.5028
+Epoch [13/30], Step [200/245], Loss: 1.4279
+Train accuracy is: 51.422448979591834 %
+Validataion accuracy is: 50.0 %
+Epoch [14/30], Step [100/245], Loss: 1.2796
+Epoch [14/30], Step [200/245], Loss: 1.2978
+Train accuracy is: 52.285714285714285 %
+Validataion accuracy is: 49.7 %
+Epoch [15/30], Step [100/245], Loss: 1.2898
+Epoch [15/30], Step [200/245], Loss: 1.3095
+Train accuracy is: 52.73877551020408 %
+Validataion accuracy is: 51.1 %
+New best validation accuracy: 51.1 %
+Epoch [16/30], Step [100/245], Loss: 1.3601
+Epoch [16/30], Step [200/245], Loss: 1.2452
+Train accuracy is: 53.92040816326531 %
+Validataion accuracy is: 53.8 %
+New best validation accuracy: 53.8 %
+Epoch [17/30], Step [100/245], Loss: 1.3478
+Epoch [17/30], Step [200/245], Loss: 1.0895
+Train accuracy is: 54.30612244897959 %
+Validataion accuracy is: 52.7 %
+Epoch [18/30], Step [100/245], Loss: 1.1487
+Epoch [18/30], Step [200/245], Loss: 1.2231
+Train accuracy is: 54.83061224489796 %
+Validataion accuracy is: 53.5 %
+Epoch [19/30], Step [100/245], Loss: 1.2077
+Epoch [19/30], Step [200/245], Loss: 1.2739
+Train accuracy is: 55.31224489795918 %
+Validataion accuracy is: 55.2 %
+New best validation accuracy: 55.2 %
+Epoch [20/30], Step [100/245], Loss: 1.1739
+Epoch [20/30], Step [200/245], Loss: 1.2375
+Train accuracy is: 55.98367346938775 %
+Validataion accuracy is: 55.6 %
+New best validation accuracy: 55.6 %
+Epoch [21/30], Step [100/245], Loss: 1.2237
+Epoch [21/30], Step [200/245], Loss: 1.2832
+Train accuracy is: 56.45918367346939 %
+Validataion accuracy is: 54.6 %
+Epoch [22/30], Step [100/245], Loss: 1.2815
+Epoch [22/30], Step [200/245], Loss: 1.1154
+Train accuracy is: 56.775510204081634 %
+Validataion accuracy is: 55.9 %
+New best validation accuracy: 55.9 %
+Epoch [23/30], Step [100/245], Loss: 1.1682
+Epoch [23/30], Step [200/245], Loss: 1.3440
+Train accuracy is: 57.10408163265306 %
+Validataion accuracy is: 58.1 %
+New best validation accuracy: 58.1 %
+Epoch [24/30], Step [100/245], Loss: 1.1612
+Epoch [24/30], Step [200/245], Loss: 1.2221
+Train accuracy is: 57.210204081632654 %
+Validataion accuracy is: 57.5 %
+Epoch [25/30], Step [100/245], Loss: 1.2076
+Epoch [25/30], Step [200/245], Loss: 1.2076
+Train accuracy is: 57.64081632653061 %
+Validataion accuracy is: 58.0 %
+Epoch [26/30], Step [100/245], Loss: 1.1789
+Epoch [26/30], Step [200/245], Loss: 1.1735
+Train accuracy is: 58.255102040816325 %
+Validataion accuracy is: 57.9 %
+Epoch [27/30], Step [100/245], Loss: 1.2201
+Epoch [27/30], Step [200/245], Loss: 1.2096
+Train accuracy is: 58.60612244897959 %
+Validataion accuracy is: 55.7 %
+Epoch [28/30], Step [100/245], Loss: 1.1075
+Epoch [28/30], Step [200/245], Loss: 1.1779
+Train accuracy is: 59.03469387755102 %
+Validataion accuracy is: 60.7 %
+New best validation accuracy: 60.7 %
+Epoch [29/30], Step [100/245], Loss: 1.1081
+Epoch [29/30], Step [200/245], Loss: 1.2881
+Train accuracy is: 59.10204081632653 %
+Validataion accuracy is: 58.8 %
+Epoch [30/30], Step [100/245], Loss: 1.1443
+Epoch [30/30], Step [200/245], Loss: 1.1089
+Train accuracy is: 59.63673469387755 %
+Validataion accuracy is: 58.7 %
+
+
+Data augmentation type: [RandomRotation(degrees=[-90.0, 90.0], interpolation=nearest, expand=False, fill=0), RandomHorizontalFlip(p=0.5), RandomVerticalFlip(p=0.5), RandomAffine(degrees=[0.0, 0.0], translate=(0.4, 0.5)), ColorJitter(brightness=[0.8, 1.2], contrast=None, saturation=[0.8, 1.2], hue=[-0.2, 0.2])]
+Epoch [1/30], Step [100/245], Loss: 2.0483
+Epoch [1/30], Step [200/245], Loss: 2.0890
+Train accuracy is: 21.26326530612245 %
+Validataion accuracy is: 20.9 %
+New best validation accuracy: 20.9 %
+Epoch [2/30], Step [100/245], Loss: 1.9499
+Epoch [2/30], Step [200/245], Loss: 1.9466
+Train accuracy is: 24.987755102040815 %
+Validataion accuracy is: 25.6 %
+New best validation accuracy: 25.6 %
+Epoch [3/30], Step [100/245], Loss: 2.0175
+Epoch [3/30], Step [200/245], Loss: 1.8884
+Train accuracy is: 27.83265306122449 %
+Validataion accuracy is: 26.7 %
+New best validation accuracy: 26.7 %
+Epoch [4/30], Step [100/245], Loss: 1.8495
+Epoch [4/30], Step [200/245], Loss: 1.7942
+Train accuracy is: 31.353061224489796 %
+Validataion accuracy is: 28.2 %
+New best validation accuracy: 28.2 %
+Epoch [5/30], Step [100/245], Loss: 1.7454
+Epoch [5/30], Step [200/245], Loss: 1.8000
+Train accuracy is: 34.94897959183673 %
+Validataion accuracy is: 33.4 %
+New best validation accuracy: 33.4 %
+Epoch [6/30], Step [100/245], Loss: 1.7642
+Epoch [6/30], Step [200/245], Loss: 1.6906
+Train accuracy is: 37.46326530612245 %
+Validataion accuracy is: 34.2 %
+New best validation accuracy: 34.2 %
+Epoch [7/30], Step [100/245], Loss: 1.7166
+Epoch [7/30], Step [200/245], Loss: 1.6627
+Train accuracy is: 39.36530612244898 %
+Validataion accuracy is: 40.0 %
+New best validation accuracy: 40.0 %
+Epoch [8/30], Step [100/245], Loss: 1.5833
+Epoch [8/30], Step [200/245], Loss: 1.6250
+Train accuracy is: 41.21224489795918 %
+Validataion accuracy is: 38.5 %
+Epoch [9/30], Step [100/245], Loss: 1.6368
+Epoch [9/30], Step [200/245], Loss: 1.6451
+Train accuracy is: 42.14081632653061 %
+Validataion accuracy is: 41.8 %
+New best validation accuracy: 41.8 %
+Epoch [10/30], Step [100/245], Loss: 1.5538
+Epoch [10/30], Step [200/245], Loss: 1.5944
+Train accuracy is: 43.563265306122446 %
+Validataion accuracy is: 41.2 %
+Epoch [11/30], Step [100/245], Loss: 1.5080
+Epoch [11/30], Step [200/245], Loss: 1.6301
+Train accuracy is: 44.655102040816324 %
+Validataion accuracy is: 45.3 %
+New best validation accuracy: 45.3 %
+Epoch [12/30], Step [100/245], Loss: 1.4883
+Epoch [12/30], Step [200/245], Loss: 1.4319
+Train accuracy is: 45.68571428571428 %
+Validataion accuracy is: 46.6 %
+New best validation accuracy: 46.6 %
+Epoch [13/30], Step [100/245], Loss: 1.5838
+Epoch [13/30], Step [200/245], Loss: 1.5902
+Train accuracy is: 46.114285714285714 %
+Validataion accuracy is: 44.1 %
+Epoch [14/30], Step [100/245], Loss: 1.3810
+Epoch [14/30], Step [200/245], Loss: 1.5285
+Train accuracy is: 47.30612244897959 %
+Validataion accuracy is: 48.6 %
+New best validation accuracy: 48.6 %
+Epoch [15/30], Step [100/245], Loss: 1.3119
+Epoch [15/30], Step [200/245], Loss: 1.5771
+Train accuracy is: 47.59183673469388 %
+Validataion accuracy is: 48.5 %
+Epoch [16/30], Step [100/245], Loss: 1.4936
+Epoch [16/30], Step [200/245], Loss: 1.3364
+Train accuracy is: 48.39591836734694 %
+Validataion accuracy is: 45.5 %
+Epoch [17/30], Step [100/245], Loss: 1.4742
+Epoch [17/30], Step [200/245], Loss: 1.5207
+Train accuracy is: 49.077551020408166 %
+Validataion accuracy is: 49.8 %
+New best validation accuracy: 49.8 %
+Epoch [18/30], Step [100/245], Loss: 1.4472
+Epoch [18/30], Step [200/245], Loss: 1.3658
+Train accuracy is: 49.875510204081635 %
+Validataion accuracy is: 49.9 %
+New best validation accuracy: 49.9 %
+Epoch [19/30], Step [100/245], Loss: 1.2898
+Epoch [19/30], Step [200/245], Loss: 1.2956
+Train accuracy is: 50.1 %
+Validataion accuracy is: 50.0 %
+New best validation accuracy: 50.0 %
+Epoch [20/30], Step [100/245], Loss: 1.3463
+Epoch [20/30], Step [200/245], Loss: 1.3853
+Train accuracy is: 50.38367346938775 %
+Validataion accuracy is: 52.1 %
+New best validation accuracy: 52.1 %
+Epoch [21/30], Step [100/245], Loss: 1.4834
+Epoch [21/30], Step [200/245], Loss: 1.3297
+Train accuracy is: 51.018367346938774 %
+Validataion accuracy is: 52.0 %
+Epoch [22/30], Step [100/245], Loss: 1.3747
+Epoch [22/30], Step [200/245], Loss: 1.3453
+Train accuracy is: 51.704081632653065 %
+Validataion accuracy is: 53.1 %
+New best validation accuracy: 53.1 %
+Epoch [23/30], Step [100/245], Loss: 1.4620
+Epoch [23/30], Step [200/245], Loss: 1.3473
+Train accuracy is: 51.83673469387755 %
+Validataion accuracy is: 50.9 %
+Epoch [24/30], Step [100/245], Loss: 1.3766
+Epoch [24/30], Step [200/245], Loss: 1.2425
+Train accuracy is: 52.436734693877554 %
+Validataion accuracy is: 53.1 %
+Epoch [25/30], Step [100/245], Loss: 1.2789
+Epoch [25/30], Step [200/245], Loss: 1.1856
+Train accuracy is: 52.61632653061225 %
+Validataion accuracy is: 52.1 %
+Epoch [26/30], Step [100/245], Loss: 1.4137
+Epoch [26/30], Step [200/245], Loss: 1.2625
+Train accuracy is: 52.99183673469388 %
+Validataion accuracy is: 52.5 %
+Epoch [27/30], Step [100/245], Loss: 1.3146
+Epoch [27/30], Step [200/245], Loss: 1.4093
+Train accuracy is: 53.56122448979592 %
+Validataion accuracy is: 54.2 %
+New best validation accuracy: 54.2 %
+Epoch [28/30], Step [100/245], Loss: 1.2214
+Epoch [28/30], Step [200/245], Loss: 1.4784
+Train accuracy is: 53.795918367346935 %
+Validataion accuracy is: 55.3 %
+New best validation accuracy: 55.3 %
+Epoch [29/30], Step [100/245], Loss: 1.2625
+Epoch [29/30], Step [200/245], Loss: 1.4863
+Train accuracy is: 53.90816326530612 %
+Validataion accuracy is: 54.0 %
+Epoch [30/30], Step [100/245], Loss: 1.3791
+Epoch [30/30], Step [200/245], Loss: 1.2912
+Train accuracy is: 54.553061224489795 %
+Validataion accuracy is: 52.8 %
